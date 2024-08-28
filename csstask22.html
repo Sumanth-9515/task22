@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightcoral;
+        }
+
+        .div1 {
+            background-color: aqua;
+            padding: 20px;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .div2 {
+            background-color: lightcoral;
+            height: 300px;
+            width: 600px;
+            margin-left: 50px;
+            margin-top: 30px;
+            border: 2px solid black;
+            transition-duration: 4s;
+        }
+
+        .div2 img {
+            transition-duration:5s;
+            transition-property: all;
+            margin-top: 50px;
+            margin-left: 40px;
+            transition-delay:1;
+        }
+        .div2:hover img{
+            translate: 100px;
+            border-radius: 30%;
+            rotate: 20deg;
+        }
+        .div2:hover{
+            transition-duration:5s;
+            transform: skewY(10deg);
+
+        }
+        .div3{
+            transition-duration: 5s;
+            background-color:lightcoral;
+            border: 3px solid black;
+            height: 300px;
+            width: 400px;
+            margin-left: 50px;
+            margin-top: 30px;
+            
+        }
+        .div3 img {
+            margin-top: 20px;
+            margin-left: 70px;
+            transition-duration: 5s;
+        }
+        .main{
+            display: flex;
+            gap:12em;
+        }
+        .div3:hover{
+            /* transition-duration: 5s; */
+            background-color: greenyellow;
+            width:500px;
+            height: 500px;
+
+        }
+        .div3 img:hover{
+            /* transition-duration: 5s; */
+            width:400px;
+            height: 400px;
+            
+        }
+        .div4{
+            background-color: lightcoral;
+            width: 700px;
+            height: 100px;
+            border: 3px solid black;
+            margin-top: 80px;
+            margin-left: 50px;
+            color: white;
+            text-align: center;
+            transition-duration: 5s;
+        }
+
+        .div4:hover{
+           
+            transform: skewY(20deg);
+        }
+        .div5{
+            transition-duration: 5s;
+            background-color: lightcoral;
+            width: 700px;
+            height: 100px;
+            border: 3px solid black;
+            margin-top: 80px;
+            margin-left: 90px;
+
+        }
+        .main2{
+            display: flex;
+            gap:5em;
+        }
+        .div5:hover{
+            transition-duration: 2s;
+            width:900px;
+            color: pink;
+        }
+        
+        .div7 {
+            background-color: aqua;
+            padding: 20px;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <h1>Interactive CSS Effects</h1>
+    </div>
+ <div class="main">
+    <div class="div2">
+        <img src="https://www.deccanchronicle.com/h-upload/2024/05/31/1093969-146165-nani.jpg" width="350" alt="">
+    </div>
+    <div class="div3">
+        <img src="https://pbs.twimg.com/media/GTqQgG0boAEI6YR.jpg:large" width="250" height="250" alt="">
+        
+    </div>
+ </div>
+<div class="main2">
+
+    <div class="div4">
+        <h1> My Name is Sumanth </h1>
+    
+     </div>
+     <div class="div5">
+        <h2>Iam learning css</h2>
+    
+     </div>
+    
+</div>
+<div class="div7">
+    <h1>@mytask</h1>
+ </div>
+</body>
+
+</html>
